@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Japora - Privacy Policy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="assets/images/favicon.png">
+</head>
+
+<body>
+
+  <header class="hero">
+    <div class="container">
+      <div class="logo">
+        <img src="assets/images/app-icon.png" alt="Japora" width="48" height="48">
+        <span>Japora</span>
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="support.html">Support</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <div class="page-header">
+      <h1>Privacy Policy</h1>
+      <p>For Japora - Jaap Counter & Spiritual Practice App</p>
+    </div>
+
+    <section class="policy-section" id="introduction">
+      <h2>1. Introduction</h2>
+      <p>This privacy policy explains how Rudra Prakash (the "developer", "we", "our", "us") handles information when you use Japora (the "app"). Japora is a free Jaap Counter application for spiritual practice and mantra counting, available on Android.</p>
+      <p>This policy was last updated on January 1, 2024. Japora is developed by Rudra Prakash.</p>
+    </section>
+
+    <section class="policy-section" id="developer-info">
+      <h2>2. Developer Information</h2>
+      <p><strong>Developer Name:</strong> Rudra Prakash</p>
+      <p>No formal business entity or registered postal address is associated with this application. The developer individual created this app as a spiritual practice tool.</p>
+      <p>For any privacy-related questions, contact us via the email address listed on the app's support screen or the contact page of this website.</p>
+    </section>
+
+    <section class="policy-section" id="information-collected">
+      <h2>3. Information Collected</h2>
+      <p>Japora collects and stores the following information:</p>
+      <ul>
+        <li><strong>Jaap session data:</strong> Count, start/end times, session duration, and target counts are stored locally using Hive local storage on your device.</li>
+        <li><strong>History records:</strong> Completed jaap sessions are saved in a local history box, including count, date, and duration.</li>
+        <li><strong>Settings:</strong> Your theme preference, dark mode setting, vibration and sound preferences, and default target are stored locally.</li>
+        <li><strong>Streaks and achievements:</strong> Your streaks and achievements are calculated and stored locally based on your session activity.</li>
+        <li><strong>Widget data:</strong> If you enable the home screen widget, current count, today's count, target count, and progress percentage are stored locally in the widget box for display on your home screen.</li>
+        <li><strong>Ad frequency data:</strong> If ads are enabled, frequency capping data (interstitial show timestamps, daily impression counts, install date) is stored locally to enforce ad limits.</li>
+      </ul>
+    </section>
+
+    <section class="policy-section" id="information-not-collected">
+      <h2>4. Information Not Collected</h2>
+      <p>Japora does NOT collect the following types of information:</p>
+      <ul>
+        <li>Personal identifiers such as your name, email address, or phone number (unless you voluntarily provide them via the contact form)</li>
+        <li>Precise location data</li>
+        <li>Audio recordings or voice samples (the voice counting feature processes speech locally on the device; no audio is transmitted)</li>
+        <li>Photos or images from your device</li>
+        <li>Contact lists or social network data</li>
+        <br>
+        <p><strong>Important:</strong> The speech-to-text feature uses the device's built-in speech recognition engine. No audio recordings are stored or transmitted from the device except what is required by the platform's speech recognition service to convert speech to text. The app does not retain or transmit the audio input.</p>
+      </ul>
+    </section>
+
+    <section class="policy-section" id="how-information-is-used">
+      <h2>5. How Information Is Used</h2>
+      <p>The information collected by Japora is used solely for the following purposes:</p>
+      <ul>
+        <li>Tracking your jaap practice sessions and maintaining your count history</li>
+        <li>Calculating and displaying your streaks, achievements, and weekly summaries</li>
+        <li>Customizing the app theme and user experience based on your preferences</li>
+        <li>Enabling the home screen widget to show your current count and progress</li>
+        <li>Enforcing ad frequency caps when ads are enabled (one interstitial per 5 minutes, daily cap of 10 impressions, no interstitial during the first 24 hours after install)</li>
+        <li>Restoring your data when you reinstall the app or switch devices (via exported backup files)</li>
+      </ul>
+      <p>None of the locally stored data is transmitted to a remote server, sold to third parties, or used for profiling beyond the app's internal functionality.</p>
+    </section>
+
+    <section class="policy-section" id="local-and-cloud-storage">
+      <h2>6. Local Storage and Cloud Storage</h2>
+      <p>All user data in Japora is stored <strong>locally</strong> on your device using Hive, a key-value database embedded in the Flutter app. No user data is automatically uploaded to cloud servers.</p>
+      <p>The only data that leaves the device is:</p>
+      <ul>
+        <li>Exported backup files (CSV) that you choose to share or move to cloud storage yourself</li>
+        <li>Screen captures or data you explicitly share via the Share feature</li>
+      </ul>
+      <p>If you create a backup and use a cloud storage service (Google Drive, Dropbox, etc.) to store it, that is under your control and not a function of the app itself.</p>
+    </section>
+
+    <section class="policy-section" id="third-party-sdks">
+      <h2>7. Third-Party SDKs and Services</h2>
+      <p>Japora integrates the following third-party SDKs and services:</p>
+      <ul>
+        <li>
+          <strong>Yandex Mobile Ads</strong> (<code>yandex_mobileads: ^8.6.0</code>)
+          <p>This SDK displays advertising banners and interstitials within the app. The following data may be collected by the Yandex Mobile Ads SDK, as documented by Yandex:</p>
+          <ul>
+            <li>Advertising ID (for ad targeting and frequency capping)</li>
+            <li>General location (approximate, based on IP or network info)</li>
+            <li>App usage information for ad performance reporting</li>
+          </ul>
+          <p>However, the app explicitly disables location tracking before Yandex Ads initialization, as documented in the app's README. The Yandex Mobile Ads SDK's advertising ID permission and location permission are declared by the SDK itself and merged into the Android manifest.</p>
+          <p>No personal data is knowingly sent to Yandex by Japora. The app's ad configuration sets user consent to <code>false</code> and disables location tracking prior to SDK initialization.</p>
+        </li>
+        <li>
+          <strong>Speech-to-Text</strong> (<code>speech_to_text: ^7.4.0</code>)
+          <p>This feature uses the device's native speech recognition service. No audio recordings are stored on the app's servers. The speech recognition is performed by the platform's service (Google Assistant, Samsung Bixby, etc.) subject to that service's own privacy policy.</p>
+        </li>
+        <li>
+          <strong>PDF Generation</strong> (<code>pdf: ^3.11.1</code> and <code>printing: ^5.13.4</code>)
+          <p>These packages generate PDF reports locally on the device. No data is transmitted to external servers unless you explicitly share a generated PDF.</p>
+        </li>
+        <li>
+          <strong>Share Plus</strong> (<code>share_plus: ^10.1.4</code>)
+          <p>This feature enables sharing of data exports. The intent is handled by the Android system's native sharing target chooser. Japora does not intercept or store the shared content.</p>
+        </li>
+        <li>
+          <strong>Hive and Hive Generator</strong> (<code>hive: ^2.2.3</code>, <code>hive_flutter: ^1.1.0</code>, <code>hive_generator: ^2.0.1</code>)
+          <p>These packages enable local key-value storage. All data remains on the device.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="policy-section" id="advertising">
+      <h2>8. Advertising and Advertising Identifiers</h2>
+      <p>Japora may display advertisements via the Yandex Mobile Ads SDK. The following advertising practices apply:</p>
+      <ul>
+        <li>At most one interstitial per 5 minutes (<code>AdConfig.interstitialMinimumInterval</code>)</li>
+        <li>Daily cap of 10 impressions (<code>AdConfig.interstitialDailyLimit</code>)</li>
+        <li>No interstitial during the first 24 hours after install (<code>AdConfig.firstInstallGracePeriod</code>)</li>
+        <li>No interstitial before onboarding completes and before at least one session has been saved</li>
+        <li>Duplicate show requests are rejected; never queued</li>
+        <li>The interstitial is disposed after dismissal and the next one is preloaded in the background</li>
+        <li>Ad-free mode (<code>adFreeProvider</code>) hides banners and releases any cached interstitial immediately</li>
+        <li>User consent for data collection is set to <code>false</code> at SDK initialization</li>
+        <li>Location tracking is disabled before Yandex Ads initialization</li>
+        <li>Debug builds fall back to official Yandex demo units</li>
+        <li>Release builds with a missing ad unit ID disable that format and log it</li>
+      </ul>
+      <p>Banner ads may appear on the History, Settings, and Analytics screens, tucked above the bottom navigation bar. Inline banners appear at the end of the Home feed, hidden while a session is active or a restore prompt is open. Interstitials appear only immediately after an explicitly stopped jaap session whose history record was saved successfully.</p>
+    </section>
+
+    <section class="policy-section" id="analytics-and-crash">
+      <h2>9. Analytics and Crash Reporting</h2>
+      <p>Japora uses the following for analytics and crash reporting:</p>
+      <ul>
+        <li><strong>Console Crash Reporter:</strong> A local crash reporter that logs errors to the console in debug mode. In release mode, all calls are no-ops to avoid log noise. No personal data is collected.</li>
+        <li>No third-party analytics services (such as Google Analytics or Firebase Analytics) are integrated beyond what the OS and third-party SDKs (Yandex Ads) may collect automatically.</li>
+        <p>All crash reports and error logs contain no personally identifiable information (PII). The crash reporter can be replaced with Firebase Crashlytics after running <code>flutterfire configure</code>.</li>
+      </ul>
+    </section>
+
+    <section class="policy-section" id="data-sharing">
+      <h2>10. Data Sharing and Disclosure</h2>
+      <p>Japora does NOT share your personal data with any third parties, except as follows:</p>
+      <ul>
+        <li>Yandex Mobile Ads may receive advertising ID and aggregated usage information as part of the ad SDK's normal operation, as described in section 7 above.</li>
+        <li>The speech-to-text service processes audio through the platform's native speech recognition service, subject to that service's privacy policy.</li>
+        <li>If you use the Backup & Restore feature to export your data as CSV and share it via the system share sheet, the data is transmitted only to the recipient you choose through the Android system's sharing mechanism.</li>
+        <li>No data is sold, licensed, or otherwise disclosed for marketing or advertising purposes.</li>
+      </ul>
+    </section>
+
+    <section class="policy-section" id="data-retention">
+      <h2>11. Data Retention and Deletion</h2>
+      <p>All data in Japora is retained locally on your device until you explicitly delete it:</p>
+      <ul>
+        <li>Sessions and history are kept until you use the "Clear all jaap records" option in Settings.</li>
+        <li>Settings preferences are kept until you change or reset them.</li>
+        <li>Widget data is kept until you uninstall the app or clear widget data.</li>
+        <li>Exported backup files (CSV) are stored only in the location you choose; the app does not retain copies.</li>
+      </ul>
+      <p>To delete all your data, use the "Clear all jaap records" option in the Data section of Settings. This will remove all stored sessions, streaks, and notes from the device.</p>
+    </section>
+
+    <section class="policy-section" id="data-security">
+      <h2>12. Data Security</h2>
+      <p>Japora takes reasonable precautions to protect your data. All user data is stored locally on the device using Hive encryption. The app does not transmit sensitive data over the network except what is required for Yandex Mobile Ads functionality (which includes advertising ID and aggregated usage information as documented by Yandex).</p>
+      <p>The developer is not responsible for data loss resulting from device damage, app uninstallation, or operating system updates. We recommend regularly backing up your data using the export feature.</p>
+    </section>
+
+    <section class="policy-section" id="children-privacy">
+      <h2>13. Children's Privacy</h2>
+      <p>Japora is intended for general audiences and does not knowingly collect data from children under the age of 13. The app does not target children with advertising or data collection. If you are a parent or guardian and believe your child has provided us with personal data, please contact us using the information below.</p>
+    </section>
+
+    <section class="policy-section" id="user-rights">
+      <h2>14. User Rights and Choices</h2>
+      <p>You have the following rights and choices regarding your data in Japora:</p>
+      <ul>
+        <li><strong>Data Export:</strong> You can export all your data as a CSV file via the Backup & Restore screen.</li>
+        <li><strong>Data Deletion:</strong> You can clear all stored data via the "Clear all jaap records" option in Settings.</li>
+        <li><strong>Ad Consent:</strong> You can enable ad-free mode from the Settings screen, which immediately hides ads and releases any cached interstitials.</li>
+        <li><strong>Widget:</strong> You can remove the home screen widget by long-pressing it and selecting "Remove" or by uninstalling the app.</li>
+        <li><strong>Voice Counting:</strong> You can disable voice counting from the Settings screen if you prefer not to use the speech recognition feature.</li>
+      </ul>
+    </section>
+
+    <section class="policy-section" id="permissions">
+      <h2>15. Permissions and Their Purposes</h2>
+      <p>The following permissions are declared in Japora's AndroidManifest.xml and their purposes:</p>
+      <ul>
+        <li>
+          <strong>android.permission.INTERNET</strong> — Required for network connectivity, Yandex Mobile Ads, and URL launcher functionality.
+        </li>
+        <li>
+          <strong>android.permission.ACCESS_NETWORK_STATE</strong> — Required to check network state before showing ads.
+        </li>
+        <li>
+          <strong>android.permission.VIBRATE</strong> — Required for vibration feedback on count (haptic feedback feature).
+        </li>
+        <li>
+          <strong>android.permission.POST_NOTIFICATIONS</strong> — Required for Android 13+ notification permission (for session completion notifications).
+        </li>
+        <li>
+          <strong>android.permission.RECORD_AUDIO</strong> — Required for the voice counting feature to capture audio input via the device's microphone.
+        </li>
+        <li>
+          <strong>Quotes from AndroidManifest.xml:</strong>
+          <code><uses-permission android:name="android.permission.INTERNET" /></code>
+          <code><uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /></code>
+          <code><uses-permission android:name="android.permission.VIBRATE" /></code>
+          <code><uses-permission android:name="android.permission.POST_NOTIFICATIONS" /></code>
+          <code><uses-permission android:name="android.permission.RECORD_AUDIO" /></code>
+        </li>
+      </ul>
+    </section>
+
+    <section class="policy-section" id="policy-changes">
+      <h2>16. Changes to This Policy</h2>
+      <p>This privacy policy may be updated from time to time. We will notify users of any changes by posting the new privacy policy on this page and updating the "Last updated" date. You are advised to review this policy periodically for any changes.</p>
+    </section>
+
+    <section class="policy-section" id="contact">
+      <h2>17. Contact Information</h2>
+      <p>If you have any questions or concerns about this privacy policy or data practices, you can contact the developer:</p>
+      <ul>
+        <li>Email: <a href="mailto:rudraprakashmajhi@gmail.com">rudraprakashmajhi@gmail.com</a></li>
+        <li>Developer: Rudra Prakash</li>
+      </ul>
+      <p>Please note: The email address listed is a placeholder for contact purposes. For official support, please use the support features within the Japora app.</p>
+    </section>
+
+    <footer class="policy-footer">
+      <div class="container">
+        <p>Effective Date: January 1, 2024 | Last Updated: January 1, 2024</p>
+        <p>This privacy policy was generated based on a source code audit of Japora version 1.0.0+5.</p>
+      </div>
+    </footer>
+
+  </main>
+
+</body>
+</html>
