@@ -761,7 +761,7 @@ eskimi.com, 2020000030, RESELLER
 zmaticoo.com, 60055, DIRECT
 video.unrulymedia.com, 809865099, RESELLER
 yeahmobi.com, 114490, RESELLER
-yandex.com, 63904735, RESELLER
+yandex.com, 334176943, RESELLER
 caerulus.io, 3320-37140, RESELLER
 sonobi.com, 42a06dc622, RESELLER, d1a215d9eb5aee9e
 adagio.io, 1280, RESELLER
